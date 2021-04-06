@@ -1,0 +1,21 @@
+plugins {
+    id 'scala'
+		id 'application'
+}
+
+repositories {
+    jcenter()
+}
+
+dependencies {
+    constraints {
+        implementation 'org.apache.commons:commons-text:1.9'
+
+        implementation 'org.scala-lang:scala-library:2.13.3'
+    }
+
+    implementation 'org.scala-lang:scala-library'
+
+}
+
+mainClassName = 'example.MyApp'
